@@ -65,18 +65,25 @@ ul{  /* ul da pagina inteira */
     color: #69001d;
 }
 
-body.home #navegacao a#home
+body.home #navegacao a#home,
+body.brasil #navegacao a#brasil,
+body.internacional #navegacao a#internacional,
+body.economia ul#navegacao a#economia,
+body.saude ul#navegacao a#saude,
+body.ciencia ul#navegacao a#ciencia,
+body.foto ul#navegacao a#foto{
+    color: #ffffff;
+    background: #de003e;
+    cursor: text;
+
+}
+
 /* body.brasil #navegacao a#brasil,
 body.internacional #navegacao a#internacional,
 body.economia ul#navegacao a#economia,
 body.saude ul#navegacao a#saude,
 body.ciencia ul#navegacao a#ciencia,
 body.foto ul#navegacao a#foto
- configurando id="Home"  */{  
-    color: #ffffff;
-    background: #de003e;
-    cursor: text;
-}
-
+ configurando id="Home"  */
 
   /* */
