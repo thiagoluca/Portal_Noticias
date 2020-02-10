@@ -18,7 +18,7 @@ body{
 #topo{
     height: 150px;
     background: url(../imagens/detalhe-topo.png) no-repeat right top;
-    border: 1px solid red;
+    /*border: 1px solid red; */
 }
 
 .logo{
@@ -29,4 +29,54 @@ body{
    
 }
 
- /* */
+ /* Barra de Navegação */
+
+ul{  /* ul da pagina inteira */
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#topo ul{ /* Configurar o topo apenas em "ul" diretamente*/
+    margin-top: 30px;
+    background: #b10333;
+    float: left;
+}
+
+#topo ul li{ /* Configurar o topo apenas em "li" dentro de "ul" diretamente*/
+    float: left;
+}
+
+#topo ul a{ /* Configurar o topo apenas em "a" dentro de "ul" diretamente*/
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em; /* espaçamento superior 0.5 e espaçamento lateral de 1.5*/
+    line-height: 2.1em;
+    text-decoration: none;
+    color: #ffffff;
+    background: url(../imagens/divisor.png) no-repeat left center;
+}
+
+#topo ul .primeiro a{ /*  */
+    background: none;
+}
+
+#topo ul a:hover{  /* Display dos botões */
+    color: #69001d;
+}
+
+body.home #navegacao a#home
+/* body.brasil #navegacao a#brasil,
+body.internacional #navegacao a#internacional,
+body.economia ul#navegacao a#economia,
+body.saude ul#navegacao a#saude,
+body.ciencia ul#navegacao a#ciencia,
+body.foto ul#navegacao a#foto
+ configurando id="Home"  */{  
+    color: #ffffff;
+    background: #de003e;
+    cursor: text;
+}
+
+
+  /* */
