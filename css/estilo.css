@@ -22,7 +22,7 @@ body{
 
 .logo{
     width: 152px;
-    height: 66px;
+    height: 100px;
     background: url(../imagens/logo.png) no-repeat center;
     text-indent: -3000px;
    
@@ -246,7 +246,7 @@ body.fotos #navegacao a#fotos {
 
    /* Rodapé */
   #containe-rodape{
-      background: #de003e;
+      background: #294c71;
       padding: 20px;
   }
 
