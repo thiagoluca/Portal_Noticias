@@ -68,22 +68,37 @@ ul{  /* ul da pagina inteira */
 body.home #navegacao a#home,
 body.brasil #navegacao a#brasil,
 body.internacional #navegacao a#internacional,
-body.economia ul#navegacao a#economia,
-body.saude ul#navegacao a#saude,
-body.ciencia ul#navegacao a#ciencia,
-body.foto ul#navegacao a#foto{
+body.economia #navegacao a#economia,
+body.saude #navegacao a#saude,
+body.ciencia #navegacao a#ciencia,
+body.fotos #navegacao a#fotos {
     color: #ffffff;
     background: #de003e;
     cursor: text;
 
 }
 
-/* body.brasil #navegacao a#brasil,
-body.internacional #navegacao a#internacional,
-body.economia ul#navegacao a#economia,
-body.saude ul#navegacao a#saude,
-body.ciencia ul#navegacao a#ciencia,
-body.foto ul#navegacao a#foto
- configurando id="Home"  */
+
+  /* Configuração Layout de três colunas */
+
+  #conteudo{
+      margin-top: 80px;
+      background: #f5f5f5;
+  }
+
+  #primario{
+      width: 270px;
+      background: blue;
+  }
+
+  #secundario{
+      width: 270px;
+      background: green;
+  }
+  
+  #lateral{
+      width: 180px;
+      background: blueviolet;
+  }
 
   /* */
